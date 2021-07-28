@@ -1,0 +1,367 @@
+/* Common CSS */
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.orange-text {
+    color: #ff4b1f;
+}
+
+.orange-bg {
+    background-color: #ff4b1f;
+}
+
+.login-btn {
+    background-color: #ff4b1f;
+    color: white;
+}
+
+.signup-btn {
+    border: 2px solid #ff4b1f;
+    color: #ff4b1f;
+}
+
+.signup-btn:hover {
+    background-color: #ff4b1f;
+    color: white;
+}
+
+.margin-left-right {
+    margin: 0 40px;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 720px) {
+    .margin-left-right {
+        margin: 0 10px;
+    }
+}
+
+/* Header CSS */
+header {
+    background-image: linear-gradient(to right, #ff4b1f, #ff9068);
+}
+
+/* First Navbar CSS */
+header .first-navbar .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 12.16px;
+    font-weight: 400;
+    line-height: 18.24px;
+}
+
+header .first-navbar .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(217, 217, 217);
+}
+
+header .first-navbar .navbar-dark .navbar-brand {
+    font-size: 15.2px;
+    font-weight: 400;
+    line-height: 22.8px;
+    color: white;
+    cursor: auto;
+}
+
+header .first-navbar .navbar {
+    margin: 0;
+    padding: 0;
+}
+
+/* Search CSS */
+.search .logo {
+    width: 250px;
+}
+
+.search .form-control {
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+}
+
+.search ::placeholder {
+    color: white !important;
+}
+
+.search a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.search a:hover {
+    color: rgb(217, 217, 217);
+}
+
+.search .btn-outline-dark {
+    color: white;
+    border-color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.search .btn-outline-dark:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Second Navbar */
+.second-navbar .btn-warning {
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #ffc107;
+    border-color: white;
+}
+
+.second-navbar .btn-dark {
+    color: black;
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(217, 217, 217);
+}
+
+.second-navbar .btn-dark:hover {
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+
+/* Slider CSS */
+.slider .card {
+    border: none;
+}
+
+.slider .card-title {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.slider a {
+    text-decoration: none;
+    color: #707981;
+}
+
+/* Popular CSS */
+.popular .publisher {
+    background-image: linear-gradient(to right, #ff4b1f, #ff9068);
+}
+
+.popular .publisher .btn-dark {
+    color: black;
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.popular .publisher .btn-dark:hover {
+    background-color: lightgray;
+}
+
+.popular .card {
+    border: none;
+}
+
+.popular .publisher .btn-group-lg>.btn, .btn-lg {
+    border-radius: 1rem;
+}
+
+/* Best Seller Section CSS */
+.best .seller {
+    background-image: linear-gradient(to right, #ff4b1f, #ff9068);
+}
+
+.best .seller .btn-dark {
+    color: black;
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.best .seller .btn-dark:hover {
+    background-color: lightgray;
+}
+
+/* Latest News Section CSS */
+.latest .news {
+    background-image: linear-gradient(to right, #ff4b1f, #ff9068);
+}
+
+.latest .news .btn-dark {
+    color: black;
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.latest .news .btn-dark:hover {
+    background-color: lightgray;
+}
+
+.latest .card {
+    border: none;
+}
+
+.latest .small-font {
+    font-size: .6rem;
+}
+
+.latest .light-black-bg {
+    background: rgba(0,0,0,.5);
+    width: fit-content;
+    height: fit-content;
+}
+
+/* Rounded Section CSS */
+.rounded .card {
+    border: none;
+}
+
+.rounded {
+    border-bottom: 1px solid lightgray;
+}
+
+/* Footer CSS */
+.width-contain {
+    width: fit-content;
+    padding: 10px;
+}
+
+.text-reset {
+    color: #ff9068 !important;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
+footer .section-link, .subscription{
+    border-bottom: 1px solid lightgray;
+}
+
+footer .social {
+    border-bottom: 1px solid #ff9068;
+}
+
+/* Newsletter CSS */
+.newsletter-section {
+    background: #eee;
+    padding: 80px 0;
+}
+
+.newsletter-subscribe {
+    color: #313437;
+    background-color: #ffffff;
+    padding: 55px 74px
+}
+
+.newsletter-subscribe p {
+    color: #7d8285;
+    line-height: 1.5
+}
+
+.newsletter-subscribe h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
+    color: inherit
+}
+
+.newsletter-subscribe .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 25px
+}
+
+.newsletter-subscribe .intro p {
+    margin-bottom: 35px
+}
+
+.newsletter-subscribe form {
+    justify-content: center
+}
+
+.newsletter-subscribe form .form-control {
+    background: #eff1f4;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 9px;
+    height: 45px;
+    margin-right: 10px;
+    min-width: auto;
+}
+
+.newsletter-subscribe form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1
+}
+
+.newsletter-subscribe form .btn:hover {
+    opacity: 1
+}
+
+.newsletter-subscribe form .btn:active {
+    transform: translateY(1px)
+}
+
+.newsletter-subscribe form .btn-primary {
+    background-color: #ff4b1f !important;
+    color: #fff;
+    outline: none !important
+}
+
+.newsletter {
+    color: #ff4b1f !important
+}
+
+@media only screen and (max-width: 600px) {
+    .newsletter-subscribe h2 {
+        font-size: 17px;
+    }
+
+    .newsletter-subscribe {
+        padding: 20px;
+    }    
+
+    .newsletter-section {
+        padding: 20px;
+    }
+}

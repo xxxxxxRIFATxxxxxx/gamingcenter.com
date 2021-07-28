@@ -1,0 +1,22 @@
+.link a:hover {
+    color: white;
+}
+
+.link-item:hover {
+    background-color: #ff4b1f;
+}
+
+.payment a:hover {
+    border: 1px solid #ff4b1f !important;
+    color: black !important;
+}
+
+.payment-text {
+    font-size: 11px;
+}
+
+@media only screen and (max-width: 768px) {
+    .link-item {
+      text-align: center;
+    }
+}
