@@ -50,3 +50,16 @@ document.querySelector(".reviews-btn").addEventListener("click", () => {
 
     reviews.style.display = "block";
 });
+
+// For Price Count
+const initPrice = document.getElementById("init-price").innerText;
+const piece = document.getElementById("piece");
+const totalPrice = document.getElementById("totalPrice");
+
+piece.addEventListener("change", () => {
+    if (piece.value < 1) {
+        totalPrice.innerHTML = "0 $";
+    } else {
+        totalPrice.innerHTML = `${initPrice * piece.value} $`;
+    }
+});

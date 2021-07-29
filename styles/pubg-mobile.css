@@ -47,4 +47,18 @@
     h3 {
         font-size: 20px;
     }
+
+    .list-of-product table tr th, .list-of-product table tr td {
+        font-size: 10px;
+    }
+
+    .product-img, .product-image-header {
+        display: none;
+    }
+
+    .list-of-product table tr td .btn {
+        font-size: 8px;
+        padding: 0;
+    }
 }
+
