@@ -5,3 +5,16 @@
 .account-item:hover {
     background-color: rgb(240, 235, 235);
 }
+
+@media only screen and (max-width: 400px) {
+    table th, table td {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+    table th, table td {
+        font-size: 10px;
+    }
+}
+
