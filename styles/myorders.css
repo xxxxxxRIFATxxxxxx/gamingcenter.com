@@ -1,0 +1,7 @@
+.account-item {
+    background-color: rgb(223, 221, 221);
+}
+
+.account-item:hover {
+    background-color: rgb(240, 235, 235);
+}
