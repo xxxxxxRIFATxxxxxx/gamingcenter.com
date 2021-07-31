@@ -20,7 +20,6 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/login.css">
     <link rel="stylesheet" href="styles/myorders.css">
 </head>
 
@@ -145,26 +144,46 @@
         </nav>
     </header>
 
-
     <!-- Main -->
     <main>
-        <section class="login-location margin-left-right box-shadow p-3 bg-light mt-3 mb-3">
-            <a href="/" class="orange-text">Home page</a> <span class="text-muted">/ Member Panel</span>
-        </section>
-
-        <!-- Login Section -->
-        <section class="slider margin-left-right py-3 login">
+        <!-- Slider Section -->
+        <section class="slider margin-left-right py-3">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-8">
                     <div class="card h-100">
-                        <a href="signup.html">
-                            <img class="img-fluid" src="images/login-banner.PNG" alt="login">
-                        </a>
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://www.vatangame.com/public/slider/ce2c969ba3e11b541c6f716eb800b442.png"
+                                        class="d-block w-100 rounded" alt="slider-image">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://www.vatangame.com/public/slider/29add891ce6e60deca9511e5b3dd281a.png"
+                                        class="d-block w-100 rounded" alt="slider-image">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://www.vatangame.com/public/slider/29add891ce6e60deca9511e5b3dd281a.png"
+                                        class="d-block w-100 rounded" alt="slider-image">
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                    <div class="card h-100 shadow">
+                    <div class="card shadow">
                         <div class="card-body pt-4 px-4">
                             <h5 class="card-title orange-bg text-white text-center p-3">
                                 <i class="fas fa-user me-2 text-white"></i>
@@ -270,8 +289,537 @@
             </div>
         </section>
 
+        <!-- Popular Section -->
+        <section class="popular margin-left-right my-4">
+            <div
+                class="rounded publisher p-2 d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-between">
+                <h4 class="text-center"><span class="fw-bold text-white">POPULAR</span> PUBLISHERS</h4>
+                <button type="button" class="btn btn-dark">
+                    <i class="fas fa-list-ul me-2"></i> ALL PUBLISHERS
+                </button>
+            </div>
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-md-6 g-4 py-3">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1hbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://thumbs.dreamstime.com/b/headshot-portrait-happy-young-man-looking-camera-standing-indoors-home-modern-office-profile-picture-smiling-millennial-205222437.jpg"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://thumbs.dreamstime.com/b/headshot-portrait-happy-young-man-looking-camera-standing-indoors-home-modern-office-profile-picture-smiling-millennial-205222437.jpg"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1hbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://thumbs.dreamstime.com/b/headshot-portrait-happy-young-man-looking-camera-standing-indoors-home-modern-office-profile-picture-smiling-millennial-205222437.jpg"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1hbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-6 g-4 py-3">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1hbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://thumbs.dreamstime.com/b/headshot-portrait-happy-young-man-looking-camera-standing-indoors-home-modern-office-profile-picture-smiling-millennial-205222437.jpg"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1hbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1hbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://thumbs.dreamstime.com/b/headshot-portrait-happy-young-man-looking-camera-standing-indoors-home-modern-office-profile-picture-smiling-millennial-205222437.jpg"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://thumbs.dreamstime.com/b/headshot-portrait-happy-young-man-looking-camera-standing-indoors-home-modern-office-profile-picture-smiling-millennial-205222437.jpg"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-6 g-4 py-3">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1hbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://thumbs.dreamstime.com/b/headshot-portrait-happy-young-man-looking-camera-standing-indoors-home-modern-office-profile-picture-smiling-millennial-205222437.jpg"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://thumbs.dreamstime.com/b/headshot-portrait-happy-young-man-looking-camera-standing-indoors-home-modern-office-profile-picture-smiling-millennial-205222437.jpg"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1hbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://thumbs.dreamstime.com/b/headshot-portrait-happy-young-man-looking-camera-standing-indoors-home-modern-office-profile-picture-smiling-millennial-205222437.jpg"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2">
+                                <div class="card h-100 shadow">
+                                    <img src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1hbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                                        class="card-img-top" alt="profile">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title fw-bold">vons</h6>
+                                        <button type="button" class="btn signup-btn btn-lg fw-bold fs-6">
+                                            <i class="fas fa-play-circle me-1"></i> WATCH BROADCAST
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Seller Section -->
+        <section class="best margin-left-right my-4">
+            <div
+                class="rounded seller p-2 d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-between">
+                <h4 class="text-center"><span class="fw-bold text-white">BEST</span> SELLERS</h4>
+                <button type="button" class="btn btn-dark">
+                    <i class="fas fa-headset me-2"></i> LIVE SUPPORT LINE
+                </button>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-5 g-4 py-3">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-apex-legends-free-to-play-battle-royale_0.jpg?itok=mISX6TSE"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Apex Legends Coins</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3c1610197be7d1524413da212e1a7ad6.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">League Legends</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3dc5ed1a0f12204a5ce4c20896a6611c.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Free Fire</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-apex-legends-free-to-play-battle-royale_0.jpg?itok=mISX6TSE"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Apex Legends Coins</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3c1610197be7d1524413da212e1a7ad6.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">League Legends</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-apex-legends-free-to-play-battle-royale_0.jpg?itok=mISX6TSE"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Apex Legends Coins</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3c1610197be7d1524413da212e1a7ad6.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">League Legends</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3dc5ed1a0f12204a5ce4c20896a6611c.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Free Fire</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-apex-legends-free-to-play-battle-royale_0.jpg?itok=mISX6TSE"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Apex Legends Coins</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3c1610197be7d1524413da212e1a7ad6.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">League Legends</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-apex-legends-free-to-play-battle-royale_0.jpg?itok=mISX6TSE"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Apex Legends Coins</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3c1610197be7d1524413da212e1a7ad6.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">League Legends</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3dc5ed1a0f12204a5ce4c20896a6611c.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Free Fire</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-apex-legends-free-to-play-battle-royale_0.jpg?itok=mISX6TSE"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Apex Legends Coins</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3c1610197be7d1524413da212e1a7ad6.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">League Legends</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-apex-legends-free-to-play-battle-royale_0.jpg?itok=mISX6TSE"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Apex Legends Coins</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3c1610197be7d1524413da212e1a7ad6.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">League Legends</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3dc5ed1a0f12204a5ce4c20896a6611c.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Free Fire</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-apex-legends-free-to-play-battle-royale_0.jpg?itok=mISX6TSE"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Apex Legends Coins</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="card h-100 shadow">
+                        <img src="https://www.vatangame.com/public/categories/3c1610197be7d1524413da212e1a7ad6.jpg"
+                            class="card-img-top" alt="profile">
+                        <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">League Legends</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img class="img-fluid w-100" src="https://www.vatangame.com/public/theme/vatan_pubg_banner.png"
+                    alt="game">
+            </div>
+        </section>
+
+        <!-- Latest News Section -->
+        <section class="latest margin-left-right my-4">
+            <div
+                class="rounded news p-2 d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-between">
+                <h4 class="text-center"><span class="fw-bold text-white">LATEST</span> NEWS</h4>
+                <button type="button" class="btn btn-dark">
+                    <i class="fas fa-list-ul me-2"></i> ALL OF THE NEWS
+                </button>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4 py-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                    <div class="card h-100 bg-dark text-white">
+                        <img src="https://www.vatangame.com/public/news/22d021abe9a2025861044bebf3d2f957.png"
+                            class="card-img" alt="news">
+                        <div class="card-img-overlay light-black-bg">
+                            <h5 class="card-title">ZULA HOLIDAY FESTIVAL #EVDEKAL #EVDEKAZAN</h5>
+                            <p class="card-text">
+                                <small class="small-font"><i class="fas fa-clock me-2"></i> 14.05.2021 14:52</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="card bg-dark text-white mb-3">
+                        <img src="https://www.vatangame.com/public/news/22d021abe9a2025861044bebf3d2f957.png"
+                            class="card-img" alt="news">
+                        <div class="card-img-overlay light-black-bg">
+                            <h5 class="card-title">ZULA HOLIDAY FESTIVAL #EVDEKAL #EVDEKAZAN</h5>
+                            <p class="card-text">
+                                <small class="small-font"><i class="fas fa-clock me-2"></i> 14.05.2021 14:52</small>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card bg-dark text-white">
+                        <img src="https://www.vatangame.com/public/news/22d021abe9a2025861044bebf3d2f957.png"
+                            class="card-img" alt="news">
+                        <div class="card-img-overlay light-black-bg">
+                            <h5 class="card-title">ZULA HOLIDAY FESTIVAL #EVDEKAL #EVDEKAZAN</h5>
+                            <p class="card-text">
+                                <small class="small-font"><i class="fas fa-clock me-2"></i> 14.05.2021 14:52</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Rounded Section-->
-        <section class="rounded margin-left-right py-5 mt-5">
+        <section class="rounded margin-left-right py-4">
             <div class="row g-4">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-2">
                     <div class="card h-100 text-center">
@@ -432,7 +980,7 @@
                 <!-- Subscription -->
                 <div class="text-center p-4 text-dark subscription">
                     Don't have a membership? Register now! <button type="button" class="btn signup-btn ms-2">CREATE
-                        MY MEMBERSHIP</button>
+                        MY SUBSCRIPTION</button>
                 </div>
 
                 <!-- Newsletter -->
